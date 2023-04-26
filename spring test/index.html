@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Project</title>
+</head>
+<body>
+   <header>
+    <h1>header</h1>
+   </header> 
+
+   <nav>
+    <ul>
+        <li><a href="#add-form">Add</a></li>
+        <li><a href="#view-table">View</a></li>
+    </ul>
+   </nav>
+
+   <main>
+    <h2>Body</h2>
+    <!-- <p>Main content of the page</p> -->
+    <form id="add-form">
+    <label for="name-imput">Name:</label>
+    <input type="text" id="name-input" name="name" required><br>
+
+    <label for="age-imput">Age:</label>
+    <input type="number" id="age-input" name="age" required><br>
+
+    <label for="gender-select">Gender:</label>
+    <select id="gender-select" name="Gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option></select><br>
+
+    <label for="new-checkbox">Subscribe to new: </label>
+    <input type="submit" value="submit">
+    <input type="reset" value="Reset">
+    </form>
+
+    <div id="view-table">
+        <h3>view record</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>news</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    
+   </main>
+
+   <footer>
+    <p>Footer</p>
+   </footer>
+<script src="script.js"></script>
+</body>
+</html>
